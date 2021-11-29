@@ -31,3 +31,37 @@
 14. All 12 unit tests are complete and passing. See /tests/1_unit-tests.js for the expected behavior you should write tests for.
 
 15. All 14 functional tests are complete and passing. See /tests/2_functional-tests.js for the functionality you should write tests for.
+
+## Tests
+
+### Unit tests
+
+1. Logic handles a valid puzzle string of 81 characters
+2. Logic handles a puzzle string with invalid characters (not 1-9 or .)
+3. Logic handles a puzzle string that is not 81 characters in length
+4. Logic handles a valid row placement
+5. Logic handles an invalid row placement
+6. Logic handles a valid column placement
+7. Logic handles an invalid column placement
+8. Logic handles a valid region (3x3 grid) placement
+9. Logic handles an invalid region (3x3 grid) placement
+10. Valid puzzle strings pass the solver
+11. Invalid puzzle strings fail the solver
+12. Solver returns the expected solution for an incomplete puzzle
+
+### Functional tests
+
+1. Solve a puzzle with valid puzzle string: POST request to /api/solve
+2. Solve a puzzle with missing puzzle string: POST request to /api/solve
+3. Solve a puzzle with invalid characters: POST request to /api/solve
+4. Solve a puzzle with incorrect length: POST request to /api/solve
+5. Solve a puzzle that cannot be solved: POST request to /api/solve
+6. Check a puzzle placement with all fields: POST request to /api/check
+7. Check a puzzle placement with single placement conflict: POST request to /api/check
+8. Check a puzzle placement with multiple placement conflicts: POST request to /api/check
+9. Check a puzzle placement with all placement conflicts: POST request to /api/check
+10. Check a puzzle placement with missing required fields: POST request to /api/check
+11. Check a puzzle placement with invalid characters: POST request to /api/check
+12. Check a puzzle placement with incorrect length: POST request to /api/check
+13. Check a puzzle placement with invalid placement coordinate: POST request to /api/check
+14. Check a puzzle placement with invalid placement value: POST request to /api/check
