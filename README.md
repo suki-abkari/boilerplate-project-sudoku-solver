@@ -18,6 +18,13 @@
 14. All 12 unit tests are complete and passing. See /tests/1_unit-tests.js for the expected behavior you should write tests for.
 15. All 14 functional tests are complete and passing. See /tests/2_functional-tests.js for the functionality you should write tests for.
 
+
+## Main functions
+- The validate function should take a given puzzle string and check it to see if it has 81 valid characters for the input.
+- The check functions should be validating against the current state of the board.
+- The solve function should handle solving any given valid puzzle string, not just the test inputs and solutions. You are expected to write out the logic to solve this.
+
+
 ## Tests
 
 ### Unit tests
