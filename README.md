@@ -18,13 +18,6 @@
 14. All 12 unit tests are complete and passing. See /tests/1_unit-tests.js for the expected behavior you should write tests for.
 15. All 14 functional tests are complete and passing. See /tests/2_functional-tests.js for the functionality you should write tests for.
 
-
-## Main functions
-- The validate function should take a given puzzle string and check it to see if it has 81 valid characters for the input.
-- The check functions should be validating against the current state of the board.
-- The solve function should handle solving any given valid puzzle string, not just the test inputs and solutions. You are expected to write out the logic to solve this.
-
-
 ## Tests
 
 ### Unit tests
@@ -56,3 +49,9 @@
 12. Check a puzzle placement with incorrect length: POST request to /api/check
 13. Check a puzzle placement with invalid placement coordinate: POST request to /api/check
 14. Check a puzzle placement with invalid placement value: POST request to /api/check
+
+### <a>[Demo](https://boilerplate-project-library.sukainaabkari.repl.co)</a>
+
+## <a href="https://www.freecodecamp.org/suki-220" target="_blank"><img src="https://img.icons8.com/external-sbts2018-lineal-color-sbts2018/30/000000/external-developer-women-profession-sbts2018-lineal-color-sbts2018.png"/></a> Authors
+<!-- https://img.icons8.com/external-sbts2018-lineal-color-sbts2018/150/000000/external-developer-women-profession-sbts2018-lineal-color-sbts2018.png -->
+Sukaina Abkari & FCC
